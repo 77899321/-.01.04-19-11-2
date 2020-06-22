@@ -1,0 +1,97 @@
+#include <iostream>
+#include<cmath>
+
+using namespace std;
+//1
+/*
+struct Coord
+{
+	short id;
+	int x;
+	int y;
+};
+
+void printinforamation(Coord coord)
+{
+	cout << "id:" << coord.id << "\n";
+	cout << "x:" << coord.x << "\n";
+	cout << "y:" << coord.y << "\n";
+}
+
+int main()
+{
+
+	Coord coordonates = { 1,5,5 };
+
+	printinforamation(coordonates);
+
+}*/
+
+//2
+
+/*struct Square
+
+{
+	int dot1;
+	int dot2;
+	int dot3;
+	int dot4;
+};
+
+void printinforamation(Square sqr)
+{
+	cout << "A:" << sqr.dot1 << "\n";
+	cout << "B:" << sqr.dot2 << "\n";
+	cout << "C:" << sqr.dot3 << "\n";
+	cout << "D:" << sqr.dot4 << "\n";
+}
+
+int main()
+{
+
+	Square sqr = { 5,5,5,5 };
+
+	printinforamation(sqr);
+
+}*/
+
+//3
+struct Square
+
+{
+	int a;
+	int b;
+	int c;
+	int d;
+	int S = pow(a, 2);
+	int P = a + b + c + d;
+	
+};
+
+void printinforamation(Square sqr)
+{
+	
+	cout << "A:" << sqr.a << "\n";
+	cout << "B:" << sqr.b << "\n";
+	cout << "C:" << sqr.c << "\n";
+	cout << "D:" << sqr.d<< "\n";
+	cout << "S=" << sqr.S << endl;
+	cout << "P=" << sqr.P;
+	
+}
+
+int main()
+{
+
+	Square sqr = { 5,5,5,5 };
+
+	printinforamation(sqr);
+	
+
+
+}
+
+
+
+
+
